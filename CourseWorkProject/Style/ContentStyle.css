@@ -1,0 +1,56 @@
+﻿
+body {
+    font-size:17px;
+    box-sizing:border-box;
+}
+
+.navbar{
+    height:8%;
+}
+.navbar .container .collapse ul li a {
+   transition: all .3s;
+   display:block;
+   box-sizing:border-box;
+}
+.navbar .container .collapse ul li:hover a {
+    font-size:20px;
+}
+#btn-create {
+    margin-bottom: 10px;
+}
+.body-content{
+    margin-top:50px;
+}
+
+.blog-container{
+    height: auto;
+}
+
+.blog-header{
+    padding:10px;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.create-date {
+    float: right;
+}
+.blog-content{
+    padding:10px 20px;
+    line-height:30px;
+    overflow:auto;
+}
+
+#btn-comment {
+    width: 100%;
+}
+
+.comment-box {
+    border: 1px solid;
+    border-radius:20px;
+    margin:10px;
+    padding: 3px 5px;
+}
+
+.comment-box .user-comment{
+    font-weight:bold;
+}
